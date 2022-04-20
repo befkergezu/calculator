@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: black;
+  color: #fff;
+  height: auto;
+  width: 270px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+#eq{
+  width: 130px;
+}
+#can{
+  width: 80px;
+}
+@media only screen and (max-width:700px){
+  .main{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+  }
+}
